@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>LoL | Trivia</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <!-- Animate -->
+  <link rel="stylesheet" type="text/css" href="css/animate.css">
+  <!-- <link rel="stylesheet" type="text/css" href="css/styles.css"> -->
+</head>
+<body>
+  <main>
+    <div class="container">
+      <div id="title">
+        <h2>League of Legends Trivia!</h2>
+      </div>
+      <div id="welcome-screen">
+        <h3>Ready to play?</h3>
+        <p>Enter your Username:</p>
+        <form>
+          <input type="text" id="player-name" placeholder="Username" />
+          <button type="submit" class="waves-effect waves-light btn red" id="name-button">Play</button>  
+        </form>
+        
+      </div> <!-- end welcome-screen -->
+      <div id="scoreboard">
+        <h4 id="username"></h4>
+      </div>
+      <div id="question1" class="questions">
+        <h4>1.) What are all the roles in league?</h4>
+        <form>
+          <input type="text" id="answer1" placeholder="Type your answer" />
+          <button type="submit" class="waves-effect waves-light btn red" id="answer1-btn">Submit</button>
+        </form>
+      </div>
+    </div> <!-- end container -->
+
+    <div class="container">
+      <div id="title">
+      </div>
+      <div id="welcome-screen">
+        <h4>Who is a champion that can turn back time?</h4>
+        <form>
+          <input type="text" id="player-name" placeholder="Champion" />
+          <button type="submit" class="waves-effect waves-light btn red" id="name-button">Submit</button>  
+        </form>
+      </div>
+    </div><!-- end second-question -->
+
+        <div class="container">
+      <div id="title">
+      </div>
+      <div id="welcome-screen">
+        <h4>What is the next rank after Platinum?</h4>
+        <form>
+          <input type="text" id="player-name" placeholder="Rank" />
+          <button type="submit" class="waves-effect waves-light btn red" id="name-button">Submit</button>  
+        </form>
+      </div>
+    </div><!-- end third-question -->
+
+  </main>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js"></script>
+  <script type="text/javascript" src="js/scripts.js"></script>
+</body>
+</html>
